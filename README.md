@@ -192,7 +192,7 @@ GROUP BY a.Name
 ORDER BY ArtworkCount DESC;
 
 ```
-![image](https://github.com/user-attachments/assets/351df769-5a89-47c5-b641-4fe1893a765f)
+![image](https://github.com/user-attachments/assets/22fdd56a-dade-4e8f-9616-66777369d1e2)
 
 #### 2. List the titles of artworks created by artists from 'Spanish' and 'Dutch' nationalities, and order them by the year in ascending order.
 
@@ -205,7 +205,7 @@ ORDER BY art.Year ASC;
 
 ```
 
-![image](https://github.com/user-attachments/assets/259053f2-1384-4e20-b072-d4bbede2320b)
+![image](https://github.com/user-attachments/assets/b667025e-8d58-4a5d-9afd-d900e19103e2)
 
 #### 3. Find the names of all artists who have artworks in the 'Painting' category, and the number of artworks they have in this category.
 ```
@@ -219,7 +219,7 @@ GROUP BY a.Name;
 
 ```
 
-![image](https://github.com/user-attachments/assets/cab8d67d-fdbf-405b-b445-0d93736d4076)
+![image](https://github.com/user-attachments/assets/b760a0cb-e2a3-4f36-a673-3d3d2db878ba)
 
 
 #### 4. List the names of artworks from the 'Modern Art Masterpieces' exhibition, along with their artists and categories.
@@ -249,7 +249,7 @@ GROUP BY a.Name
 HAVING COUNT(art.ArtworkID) > 2;
 
 ```
-![image](https://github.com/user-attachments/assets/ccd7b6ae-4f80-47dc-bb33-aa7dd83befbf)
+![image](https://github.com/user-attachments/assets/e51cbf5c-ad77-4d49-a9b4-606ce53991a1)
 
 
 #### 6. Find the titles of artworks that were exhibited in both 'Modern Art Masterpieces' and 'Renaissance Art' exhibitions.
@@ -278,7 +278,7 @@ LEFT JOIN Artworks a ON c.CategoryID = a.CategoryID
 GROUP BY c.Name;
 
 ```
-![image](https://github.com/user-attachments/assets/f3b538a1-0b5b-4530-88aa-e6bb2001d711)
+![image](https://github.com/user-attachments/assets/6fc7367d-69ad-44e9-a69e-b884afa9813a)
 
 
 #### 8. List artists who have more than 3 artworks in the gallery.
@@ -292,7 +292,7 @@ HAVING COUNT(art.ArtworkID) > 3;
 
 ```
 
-![image](https://github.com/user-attachments/assets/6dca447d-51b3-4d8f-8641-5566ba8d1459)
+![image](https://github.com/user-attachments/assets/ad92b763-f151-4dd7-a35a-0c0bb5f4439b)
 
 #### 9. Find the artworks created by artists from a specific nationality (e.g., Spanish).
 
