@@ -1,6 +1,10 @@
 ## <p align="center">VIRTUAL ART GALLERY</p>
 
-### Objectives:
+##### NAME        : SUBRAMANIYA PILLAI B
+##### SUPERSET ID : 5371539
+##### COLLEGE     : SAVEETHA ENGINEERING COLLEGE
+
+### <p align="center">Objectives</p>
 
 ### <p align="center">Artists Table</p>
 
